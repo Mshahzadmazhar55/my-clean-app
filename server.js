@@ -272,7 +272,7 @@ Make it personal, professional, and compelling. Format it nicely with clear sect
 
     // Call Anthropic API with proper structure
     const apiBody = {
-     model: "claude-3-sonnet-20240229",
+    model: "claude-3-5-sonnet-20241022",
       max_tokens: 2000,
       messages: [
         {
@@ -364,7 +364,7 @@ Additional Notes: ${notes || 'Thank you for your business'}
 Format it as a clear, professional invoice with itemized services, subtotal, and total.`;
 
     const apiBody = {
-    model: "claude-3-sonnet-20240229",
+ model: "claude-3-5-sonnet-20241022",
       max_tokens: 1500,
       messages: [
         {
