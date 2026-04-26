@@ -279,8 +279,7 @@ Make it personal, professional, and compelling. Format it nicely with clear sect
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-sonnet-20241022',
-        max_tokens: 2000,
+       model: 'claude-3-5-sonnet-20240620',
         messages: [{
           role: 'user',
           content: prompt
@@ -355,8 +354,7 @@ Format it as a clear, professional invoice.`;
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-sonnet-20241022',
-        max_tokens: 1500,
+       model: 'claude-3-5-sonnet-20240620',
         messages: [{
           role: 'user',
           content: prompt
